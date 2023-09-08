@@ -13,14 +13,14 @@ class XOButton extends StatelessWidget {
           margin: EdgeInsets.all(4),
           child: ElevatedButton(
               onPressed: () {
-                onClick(index);
-              },
-              style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.red)),
-              child: Text(
-                symbol,
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-              )),
+            onClick(index);
+          },
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.blue)),
+          child: Text(
+            symbol,
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+          )),
         ));
   }
 }
