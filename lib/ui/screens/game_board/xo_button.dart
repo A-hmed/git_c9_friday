@@ -19,7 +19,7 @@ class XOButton extends StatelessWidget {
               backgroundColor: MaterialStateProperty.all(Colors.red)),
           child: Text(
             symbol,
-            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           )),
         ));
   }
