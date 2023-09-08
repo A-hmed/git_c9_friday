@@ -16,7 +16,7 @@ class XOButton extends StatelessWidget {
             onClick(index);
           },
           style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(Colors.yellow)),
+              backgroundColor: MaterialStateProperty.all(Colors.red)),
           child: Text(
             symbol,
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
