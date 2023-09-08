@@ -16,10 +16,10 @@ class XOButton extends StatelessWidget {
             onClick(index);
           },
           style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(Colors.blue)),
+              backgroundColor: MaterialStateProperty.all(Colors.yellow)),
           child: Text(
             symbol,
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           )),
         ));
   }
