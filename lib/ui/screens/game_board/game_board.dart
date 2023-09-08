@@ -32,8 +32,8 @@ class _GameBoardState extends State<GameBoard> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Text("Player1: ${player1Score}", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
-                  Text("Player2: ${player2Score}", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
+                  Text("Player1: ${player1Score}", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+                  Text("Player2: ${player2Score}", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
                 ],
               )),
           Expanded(
